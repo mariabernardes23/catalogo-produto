@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.container {
+    margin: 0 4rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.option-nav {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: #030303;
+}
+
+.option-nav:hover {
+    color: #E67F0D;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 15rem;
+    border: 0.5rem solid #FE4E00;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    box-sizing: border-box;
+}
+
+.info-product {
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.name {
+    text-align: center;
+}
+
+.show-product, .delete-button, .button-submit {
+    background-color: #FFAE03;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.title-button-show, .delete-button, .button-submit {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.show-product:hover, .delete-button:hover, .button-submit:hover {
+    background-color: #FF0F80;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out; 
+}
+
+.container-product {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    margin-right: 2rem;
+}
+
+.card-product {
+    width: 20rem;
+    border: 0.5rem solid #FE4E00;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button, .button-submit {
+    border: 0;
+    cursor: pointer;
+}
+
+.form-container {
+    margin-top: 1rem;
+    border: 0.5rem solid #e67f0d;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.form-item label{
+    margin: 0.5rem 0;
+}
+
+.form-item input[type="text"] {
+    width: 100%; 
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.button-submit {
+    width: 15rem;
+    margin-top: 0.5rem;
+}
